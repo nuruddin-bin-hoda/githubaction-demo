@@ -1,2 +1,2 @@
 # githubaction-demo
-Practice github demo
+Practice github actions
