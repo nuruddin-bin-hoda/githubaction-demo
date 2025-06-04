@@ -1,0 +1,14 @@
+{
+  "name": "githubaction-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nuruddin-bin-hoda/githubaction-demo",
+  "author": "Nuruddin <nuruddinbinhoda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
