@@ -21,7 +21,7 @@ jobs:
           echo "First line"
           echo "Second line"
       - name: List files
-        run: ls ${{ github.workspace }}
+        run: ls -ls ${{ github.workspace }}
       - name: Print github context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
