@@ -11,20 +11,7 @@ jobs:
   demo-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Action Started"
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Run a one line script
-        run: echo "Hello World!"
-      - name: Run a multi line script
-        run: |
-          echo "First line"
-          echo "Second line"
       - name: List files
-        run: ls -ls ${{ github.workspace }}
-      - name: Print github context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
-      - name: Action completed
-        run: echo "Action Completed"
+        run: ls -la ${{ github.workspace }}
