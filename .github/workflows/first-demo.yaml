@@ -28,9 +28,3 @@ jobs:
         run: echo "$GITHUB_CONTEXT"
       - name: Action completed
         run: echo "Action Completed"
-  demo-job-2:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Action started"
-      - name: "Printing msg"
-        run: echo "This is second job"
