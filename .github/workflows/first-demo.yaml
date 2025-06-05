@@ -32,5 +32,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Action started"
-      - name: "Print somge thing"
-        run: "This is second job"
+      - name: "Printing msg"
+        run: echo "This is second job"
